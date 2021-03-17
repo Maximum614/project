@@ -1,0 +1,14 @@
+.conteiner {
+    font-family: lato;
+    width: 546px;
+    height: 430px;
+    display: flex;
+}
+
+.header {
+
+}
+
+.footer {
+    flex-direction: column;
+}
