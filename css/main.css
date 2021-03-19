@@ -1,12 +1,18 @@
+ @import url(../fonts/fonts.css);
+ body {
+     background-color: #E5E5E5;;
+ }
  p {
      margin: 0;
      padding: 0;
  }
 .conteiner {
+    background: #FFFFFF;
     font-family: 'Lato', sans-serif;
     width: 546px;
     height: 430px;
-    border: 1px solid black;
+    border-radius: 2px;
+    border: 1px solid #E5E5E5; 
     
 }
 
@@ -23,8 +29,8 @@
 
 h2 {
     margin:0;
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 48px;
+    font-weight: 400;
     padding-bottom: 32px;
 }
 
@@ -37,14 +43,12 @@ hr {
     margin: 32px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .text1 , .text2 , .text3 {
     display: flex;
-    justify-content:space-around;
-    /* align-items: center; */
-    border:1px solid red;
+    justify-content:flex-start;
+    align-items:center;
     margin-bottom: 36px;
 }
 
@@ -52,4 +56,6 @@ span {
     font-size: 24px;
     padding: 0px 42px 0px 0px;
     font-weight: bold;
+    width:40%;
+    text-align: right;
 }
