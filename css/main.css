@@ -1,10 +1,14 @@
  @import url(../fonts/fonts.css);
  body {
-     background-color: #E5E5E5;;
+     background-color: #E5E5E5;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
  p {
      margin: 0;
      padding: 0;
+     padding-right: 86px;
  }
 .conteiner {
     background: #FFFFFF;
@@ -12,22 +16,17 @@
     width: 546px;
     height: 430px;
     border-radius: 2px;
-    border: 1px solid #E5E5E5; 
-    
+    padding: 32px 43px;
 }
 
-.header , .footer{
-    margin: 32px 0px 0px 40px ;
-}
-
-.header p {
+.top p {
     margin: 0;
     padding-bottom: 16px;
     height: 16px;
     color: #3C4F72;
 }
 
-h2 {
+h1 {
     margin:0;
     font-size: 48px;
     font-weight: 400;
@@ -36,17 +35,15 @@ h2 {
 }
 
 hr {
-    margin: 0px 43px 0px 3px;
     color: #E0E0E0;
+    margin: 0px;
 }
 
-.footer {
-    margin: 32px;
-    display: flex;
-    flex-direction: column;
+.down {
+    padding-top: 32px;
 }
 
-.text1 , .text2 , .text3 {
+.line1 , .line2 , .line3 {
     display: flex;
     justify-content:flex-start;
     align-items:center;
@@ -54,14 +51,13 @@ hr {
     min-height: 36px;
 }
 
-span {
+.bolt_text {
     font-size: 24px;
     padding: 0px 42px 0px 0px;
-    font-weight: bold;
     width: 35%;
     text-align: right;
 }
 
-.footer p {
+.down p {
     width: calc(65% - 42px);
 }
